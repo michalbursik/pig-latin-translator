@@ -1,0 +1,19 @@
+{
+    "name": "michal/porta-pig-latin",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Michal\\PortaPigLatin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michal Bursík",
+            "email": "michalbursik95@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pspell": "*",
+      "ext-readline": "*"
+    }
+}
